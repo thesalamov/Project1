@@ -1,0 +1,246 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+    color: #777;
+    background: url("../images/bg-img.png");
+}
+*{
+    box-sizing: border-box;
+}
+
+/*--------------Header start----------------*/
+#header{
+     position: fixed;
+    z-index:99;
+    overflow: auto;
+    background-color: #fff;
+    width: 100%;
+    color: #fff;
+    margin: 0 0 30px;
+    border-bottom: 2px solid #ccc;
+   
+
+}
+
+.container{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    clear: both;
+}
+.logo{
+    float: left;
+    width: 285px;
+    height: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    text-decoration: none;
+    background-color: #4aaaa5;
+    color:#fff;
+}
+.logo:hover{
+    background-color:#3a7d79 ;
+    transition: 1.5s;
+}
+nav{
+    float: right;
+    margin-top: 25px;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: #999;
+    padding-left: 15px;
+    margin-left: 15px;
+    border-left: 1px solid #efefef;
+
+}
+
+nav a:first-child{
+    border-left: none;
+}
+
+/*---------------Header finsih---------------*/
+/*---------------Main Start----------------*/
+
+#main{
+    padding-top: 110px;
+}
+.main_section{
+    float:left;
+    width: 100%;
+    max-width: 650px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #fff;
+    border: 1px solid #ddd;
+
+}
+.main_img {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
+.main_section h1{
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: #4aaaa5;
+    padding-bottom: 20px;
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #ddd;
+}
+.main_section p{
+    margin-bottom: 20px;
+}
+.main_section p span {
+    color: black;
+}
+.main_section p a{
+    color: red;
+    text-decoration: none;
+}
+/*---------------Main Finish----------------*/
+
+/*----------------Sidebar Start--------------*/
+
+.sidebar{
+float:right;
+width: 100%;
+max-width: 270px;
+padding: 30px;
+margin-bottom: 20px;
+background: #fff;
+border: 1px solid #ddd;
+}
+.sidebar h2{
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    line-height: 22px;
+    border-bottom: 2px solid #eee;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+.social{
+    width: 62px;
+    height: 62px;
+    margin-top: 8px;
+    margin-right: 5px;
+}
+.social:last-child{
+    margin-right: 0;
+}
+/*----------------Sidebar Finish--------------*/
+
+/*---------------Footer Start----------------*/
+footer{
+    padding: 30px 0;
+    clear: both;
+  font-size: 12px;
+  color: #fff;
+  color: #ccc;
+  text-align: center;
+  background: #666;
+  border-top: 8px solid #4aaaa5;
+}
+/*---------------Footer Finish----------------*/
+
+/*---------------Students Page Start---------------*/
+
+.students{
+    position: relative;
+    float: left;
+    width: 274px;
+    height: 274px;
+    margin: 20px 0 25px;
+
+}
+.students:nth-child(even){
+    margin-right: 40px;
+}
+.students img{
+    
+    width: 100%;
+    height: 100%;
+    border: 0 none;
+    opacity: 0.8;
+    
+}
+.students h3{
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    padding: 15px;
+   
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(74, 170, 165, 0.9);
+    border-bottom: 0;
+}
+
+
+/*---------------Students Page Finish---------------*/
+
+/*---------------Contact Page Finish---------------*/
+.contact ul{
+    margin-bottom: 20px;
+}
+label{
+    display:block;
+    width: 100%;
+}
+.text{
+    display: block;
+    width: 100%;
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+}
+.email{
+    display: block;
+    width: 100%;
+    height:35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+   
+}
+.textarea{
+    display: block;
+    width: 100%;
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    height: 200px;
+}
+
+.submit{
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #fff;
+    background: #4aaaa5;
+    border: none;
+    cursor: pointer;
+}
+
+.submit:hover{
+    background: #3a7d79;
+    transition:2s;
+    color: white;
+}
+
+/*---------------Contact Page Finish---------------*/
